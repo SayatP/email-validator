@@ -5,7 +5,7 @@ import argparse
 from time import sleep
 from subprocess import getoutput
 from collections import defaultdict
-from mx_telnet import MailTelnetAdapter
+from validator.mx_telnet import MailTelnetAdapter
 
 parser = argparse.ArgumentParser(description="Verify given emails.")
 parser.add_argument(
