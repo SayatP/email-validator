@@ -20,11 +20,10 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/SayatP/email-validator.git
    ```
 
-
-## Usage
-
-
-> python gateway.py --mails=mail1,mail2, ...
+1. Try to run
+   ```python
+   python gateway.py --mails=mail1,mail2,...
+   ```
 
 ## Note
 
