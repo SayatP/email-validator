@@ -31,12 +31,6 @@ For this thing to work properly domains in given emails need to accept telnet co
 example gmail does and should work just okay, but protonmail doesn't.
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-lol
-
-
 <!-- LICENSE -->
 ## License
 
