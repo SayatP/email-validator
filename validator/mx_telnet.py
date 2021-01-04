@@ -44,10 +44,14 @@ class MailTelnetAdapter(telnetlib.Telnet):
         return res
 
     def random_mail_form_host(self):
-        ch = "".join(random.choice(string.ascii_lowercase)
-                     for _ in range(random.randint(7, 16)))
-        nm = "".join(random.choice(string.digits)
-                     for _ in range(random.randint(0, 4)))
+        ch = "".join(
+            random.choice(string.ascii_lowercase)
+            for _ in range(random.randint(7, 16))
+        )
+        nm = "".join(
+            random.choice(string.digits)
+            for _ in range(random.randint(0, 4)))
+
         mail = ch + nm + "@" + self.host
         return mail
 
