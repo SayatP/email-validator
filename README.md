@@ -2,7 +2,7 @@
 Simple python validator for emails using telnet connection
 
 
-<img align="right" width="400" height="400" src="https://github.com/SayatP/email-validator/blob/main/resources/mail-1454734_640.png">
+<img align="right" width="400" height="400" src="https://github.com/SayatP/email-validator/blob/main/resources/noun_envelope_185619.svg">
 
 ----
 
